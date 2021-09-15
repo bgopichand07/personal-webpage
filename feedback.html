@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Feedback</title>
+    </head>
+    <body bgcolor="CEE5D0">
+        <h2><center>Feedback</center></h2>
+        <form>
+            <fieldset>
+            <label>Name</label>
+            <input type="text" required="required"><br>
+            <label>Email - id :</label>
+            <input type="email"><br><br>
+
+            <b>Gender</b><br>
+            <input type="radio"> Male<br>
+            <input type="radio"> Female<br>
+            </fieldset>
+
+            <fieldset>
+
+            <p>Please select your Text Editors(s):
+				<br />
+				<input type="checkbox" name="service" value="VS Code" checked="checked" /> VS Code
+				<input type="checkbox" name="service" value="Atom" /> Atom
+				<input type="checkbox" name="service" value="Notepad" /> Notepad
+			</p>
+
+            <p>What'S Your Favorite programming Language</p>
+			<select name="devices">
+				<option value="JAVA">JAVA</option>
+				<option value="HTML">HTML</option>
+				<option value="Python">Python</option>
+			</select><br/>
+
+            <p>Your Comments</p>
+            <textarea id="Feedback" name="Feedback" class="fcf-form-control" rows="6" cols="30" maxlength="4000"required></textarea><br><br>
+            <input type="submit" value="Submit">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
